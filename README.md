@@ -51,3 +51,7 @@ Adjust the extension's settings within Ulauncher's preferences:
 ---
 ### Open a 'terminator Window' using Ulauncher Zoxide: `terminator --working-directory {}` in Extension Setting's `Command on Select`
 ![images/example_1.gif](images/example_2.gif "Open Terminal")
+
+
+## Acknowledgement 
+- This project uses `zoxide` by @ajeetdsouza. Source: https://github.com/ajeetdsouza/zoxide (MIT License).
