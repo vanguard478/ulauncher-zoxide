@@ -18,7 +18,7 @@ A Ulauncher extension for lightning-fast directory navigation powered by the int
 ## Installation
 
 1.  **Open Ulauncher Preferences (⚙):** Go to `Extensions` > `Add extension`.
-2.  **Paste URL:** Paste the URL of this repository: `https://github.com/vanguard/ulauncher-zoxide` in `Enter extension URL`
+2.  **Paste URL:** Paste the URL of this repository: `https://github.com/vanguard478/ulauncher-zoxide` in `Enter extension URL`
 3.  **Click Add:** Ulauncher will download and install the extension.
 
 
