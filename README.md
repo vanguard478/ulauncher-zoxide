@@ -9,6 +9,11 @@ A Ulauncher extension for lightning-fast directory navigation powered by the int
 * **Seamless Zoxide Integration:** Leverages `zoxide query` for accurate, ranked results based on your actual usage patterns.
 * **Zoxide Database Updates:** Automatically updates the zoxide database (`zoxide add`) when you select a directory, ensuring the rankings stay relevant.
 * **Customizable Action:** Configure which command opens the selected directory (e.g., your preferred file manager like `xdg-open`, `nemo`, `thunar`, or even just opening the directory in a new terminal like `terminator`).
+### Open a file browser using Ulauncher Zoxide: `xdg-open {}` in Extension Setting's `Command on Select`
+![images/example_1.gif](images/example_1.gif "Open File Browser")
+---
+### Open a 'terminator Window' using Ulauncher Zoxide: `terminator --working-directory {}` in Extension Setting's `Command on Select`
+![images/example_1.gif](images/example_2.gif "Open Terminal")
 
 ## Prerequisites
 
@@ -35,6 +40,8 @@ A Ulauncher extension for lightning-fast directory navigation powered by the int
 
 Adjust the extension's settings within Ulauncher's preferences:
 
+![images/config.jpg](images/config.jpg "Config")
+
 * **Zoxide Keyword:** The keyword to trigger the search (Default: `z`).
 * **Max Results:** The maximum number of directory results to display (Default: `10`).
 * **Command on Select:** The shell command executed when you select a directory.
@@ -44,14 +51,6 @@ Adjust the extension's settings within Ulauncher's preferences:
         * `nemo {}` (Opens with Nemo file manager)
         * `thunar {}` (Opens with Thunar file manager)
         * `terminator --working-directory {}` (Opens a new Terminator terminal in the directory)
-
-## Example 
-### Open a file browser using Ulauncher Zoxide: `xdg-open {}` in Extension Setting's `Command on Select`
-![images/example_1.gif](images/example_1.gif "Open File Browser")
----
-### Open a 'terminator Window' using Ulauncher Zoxide: `terminator --working-directory {}` in Extension Setting's `Command on Select`
-![images/example_1.gif](images/example_2.gif "Open Terminal")
-
-
+ 
 ## Acknowledgement 
 - This project uses `zoxide` by @ajeetdsouza. Source: https://github.com/ajeetdsouza/zoxide (MIT License).
