@@ -1,4 +1,4 @@
-![Ulauncher Extension](https://img.shields.io/badge/Ulauncher-Extension-green.svg?style=for-the-badge)
+[![Ulauncher Extension](https://img.shields.io/badge/Ulauncher-Extension-green.svg?style=for-the-badge)](https://ext.ulauncher.io/-/github-vanguard478-ulauncher-zoxide)
 
 # <img src="images/icon.svg" alt="drawing" width="25"/>  Ulauncher Zoxide Extension
 
