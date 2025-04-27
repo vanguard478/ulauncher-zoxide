@@ -51,6 +51,7 @@ Adjust the extension's settings within Ulauncher's preferences:
         * `nemo {}` (Opens with Nemo file manager)
         * `thunar {}` (Opens with Thunar file manager)
         * `terminator --working-directory {}` (Opens a new Terminator terminal in the directory)
+        * `gnome-terminal --working-directory={}` (Opens a new GNOME terminal in the directory)
  
 ## Acknowledgement 
 - This project uses `zoxide` by @ajeetdsouza. Source: https://github.com/ajeetdsouza/zoxide (MIT License).
