@@ -28,7 +28,7 @@
       "type": "input",
       "name": "Command on Select",
       "description": "Command to run when selecting a directory",
-      "default_value": "xdg-open"
+      "default_value": "xdg-open {}"
     }
   ]
 }

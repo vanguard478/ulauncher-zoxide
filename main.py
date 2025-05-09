@@ -51,7 +51,7 @@ class ZoxideSearchExtension(Extension):
         self.subscribe(PreferencesUpdateEvent, PreferencesChangeListener())
         self.subscribe(ItemEnterEvent, ItemEnterEventListener())
         self.max_results = 10
-        self.command_on_select = "xdg-open"
+        self.command_on_select = "xdg-open {}"
 
     def search(self, query):
         """Search for entries matching a query using 'zoxide query'.
@@ -127,7 +127,7 @@ class PreferencesLoadListener(EventListener):
                 extension.preferences.get("max_results"))
             extension.max_results = 10
         extension.command_on_select = extension.preferences.get(
-            "command_on_select", "xdg-open")
+            "command_on_select", "xdg-open {}")
         #logger.info(
         #    "Preferences loaded: max_results=%d, command_on_select='%s'",
         #    extension.max_results, extension.command_on_select)
